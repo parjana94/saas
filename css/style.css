@@ -31,6 +31,9 @@ html, body {
     text-transform: capitalize;
     padding-left: 18px;
 }
+.logo-h2:hover{
+    color: white;
+}
 .nav-ul{
     display: flex;
     flex-wrap: wrap;
@@ -127,4 +130,23 @@ html, body {
 }
 .inky{
     margin-top: 270px;
+}
+.text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 310px;
+}
+.text-box-h2{
+    font-size: 64px;
+    font-family: 'Segoe UI Semi-Bold';
+    padding-bottom: 40px;
+}
+.text-box-p{
+    color: #7E92AC;
+    font-size: 20px;
+    font-family: 'Segoe UI';
+    width: 600px;
+    text-align: center;
+    padding-bottom: 235px;
 }
